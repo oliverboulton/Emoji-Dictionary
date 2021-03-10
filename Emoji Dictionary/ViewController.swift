@@ -22,7 +22,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     }
-
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return emojis.count
     }
@@ -32,6 +33,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = emojis[indexPath.row]
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let emoji = emojis[indexPath.row]
+        performSegue(withIdentifier: "moveSegue", sender: emoji)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print(sender)
+    }
+    
+    
     
 }
 
