@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="1050.7246376811595" y="123.88392857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="cPH-Qd-g9V">
             <objects>
-                <viewController id="euM-N6-ldD" sceneMemberID="viewController">
+                <viewController id="euM-N6-ldD" customClass="DefinitionViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6wE-lp-8WP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,10 +71,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aNJ-IY-wOL"/>
+                    <connections>
+                        <outlet property="definitionLabel" destination="b7b-ob-I86" id="RB1-5a-gFP"/>
+                        <outlet property="emojiLabel" destination="8Yy-FV-uqM" id="QZ6-om-GVv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gu2-l9-HI7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694.2028985507247" y="123.88392857142857"/>
+            <point key="canvasLocation" x="1993" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Shv-5P-yZs">
