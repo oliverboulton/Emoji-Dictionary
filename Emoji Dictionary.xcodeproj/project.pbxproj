@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		793E20DD25F93924008A8E5A /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E20DC25F93924008A8E5A /* DefinitionViewController.swift */; };
+		793E20E025F94C93008A8E5A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E20DF25F94C93008A8E5A /* Emoji.swift */; };
 		79BAA04625F6B17600450404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BAA04525F6B17600450404 /* AppDelegate.swift */; };
 		79BAA04825F6B17600450404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BAA04725F6B17600450404 /* SceneDelegate.swift */; };
 		79BAA04A25F6B17600450404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BAA04925F6B17600450404 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		793E20DC25F93924008A8E5A /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		793E20DF25F94C93008A8E5A /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		79BAA04225F6B17600450404 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BAA04525F6B17600450404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79BAA04725F6B17600450404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				79BAA04725F6B17600450404 /* SceneDelegate.swift */,
 				79BAA04925F6B17600450404 /* ViewController.swift */,
 				79BAA04B25F6B17600450404 /* Main.storyboard */,
+				793E20DF25F94C93008A8E5A /* Emoji.swift */,
 				793E20DC25F93924008A8E5A /* DefinitionViewController.swift */,
 				79BAA04E25F6B17900450404 /* Assets.xcassets */,
 				79BAA05025F6B17900450404 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793E20E025F94C93008A8E5A /* Emoji.swift in Sources */,
 				79BAA04A25F6B17600450404 /* ViewController.swift in Sources */,
 				793E20DD25F93924008A8E5A /* DefinitionViewController.swift in Sources */,
 				79BAA04625F6B17600450404 /* AppDelegate.swift in Sources */,

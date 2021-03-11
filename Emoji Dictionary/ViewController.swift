@@ -47,8 +47,24 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
     }
+    //🐶","🐹","🦂","🐬","🐳","🐈","🦘
+    
+    func makeEmojiArray() -> [String] {
+        let emoji1 = Emoji()
+        emoji1.stringEmoji = "🐳"
+        emoji1.birthYear = 2010
+        emoji1.category = "Animal"
+        emoji1.definition = "Its a blue whale, the biggest anmial on earth"
     
     
+        let emoji2 = Emoji()
+        emoji2.stringEmoji = "🐳"
+        emoji2.birthYear = 2010
+        emoji2.category = "Animal"
+        emoji2.definition = "Its a blue whale, the biggest anmial on earth"
+    
+    
+    }
     
 }
 
