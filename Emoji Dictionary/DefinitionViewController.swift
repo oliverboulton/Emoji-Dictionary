@@ -13,58 +13,17 @@ class DefinitionViewController: UIViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var definitionLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
-    var emoji = "No Emoji"
+    var emoji = Emoji()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        emojiLabel.text = emoji
-        
-        if emoji == "🐳" {
-            definitionLabel.text = "This is a motherfucking Whale"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2011"
-        }
-        if emoji == "🐶" {
-            definitionLabel.text = "This is a motherfucking Dog"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2012"
-        }
-        if emoji == "🐹" {
-            definitionLabel.text = "This is a motherfucking Mouse"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2001"
-        }
-        if emoji == "🦂" {
-            definitionLabel.text = "This is a motherfucking Scorpian"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2051"
-        }
-        if emoji == "🐬" {
-            definitionLabel.text = "This is a motherfucking Dolphine"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2006"
-        }
-        if emoji == "🐈" {
-            definitionLabel.text = "This is a motherfucking Cat"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2019"
-        }
-        if emoji == "🦘" {
-            definitionLabel.text = "This is a motherfucking Kangaroo"
-            categoryLabel.text = "Category: Animal"
-            birthYearLabel.text = "2018"
-        }
-            
-            
-            
-        //    🐶","🐹","🦂","🐬","🐳","🐈","🦘
-            
+        emojiLabel.text = emoji.stringEmoji
+        birthYearLabel.text = "Date Drawn Up: \(emoji.birthYear)"
+        categoryLabel.text = "Catergory: \(emoji.category)"
+        definitionLabel.text = emoji.definition
                 
-        
     
-
-        // Do any additional setup after loading the view.
     }
     
 
